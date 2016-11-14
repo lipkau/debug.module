@@ -1,0 +1,9 @@
+{
+    "name": "debug.modules",
+    "description": "Debug tools for a2",
+    "news": "First version ever!!!",
+    "maintainer": "oliver",
+    "maintainer_at": "lipkau.net",
+    "url": "https://github.com/lipkau/debug.modules",
+    "version": "0.0.1",
+}
