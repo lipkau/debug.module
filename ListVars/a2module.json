@@ -1,0 +1,26 @@
+[
+  {
+    "author": "Oliver Lipkau",
+    "date": "2016 11 14",
+    "description": "Because none existed before this temporary description was created for \"ListVars\". Change it to describe what it does with a couple of words.",
+    "typ": "nfo",
+    "url": "",
+    "version": "0.1"
+  },
+  {
+    "disablable": true,
+    "enabled": true,
+    "functionCode": "ListVars",
+    "functionMode": 0,
+    "key": "Win+F12",
+    "keyChange": true,
+    "label": "",
+    "mode": "ahk",
+    "multiple": true,
+    "name": "ListVars_Hotkey1",
+    "scope": [],
+    "scopeChange": true,
+    "scopeMode": 0,
+    "typ": "hotkey"
+  }
+]
