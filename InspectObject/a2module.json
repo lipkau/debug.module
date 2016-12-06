@@ -1,0 +1,45 @@
+[
+  {
+    "author": "Lipkau",
+    "date": "2016 12 5",
+    "description": "Inspect a list of objects in the ahk runtime",
+    "typ": "nfo",
+    "url": "",
+    "version": "0.1"
+  },
+  {
+    "file": "InspectObject.ahk",
+    "typ": "include"
+  },
+  {
+    "children": [
+      {
+        "label": "List of Object to inspect (separated by comma)",
+        "name": "InspectObject_ListOfObjects",
+        "typ": "string",
+        "value": "Settings"
+      },
+      {
+        "disablable": true,
+        "enabled": true,
+        "functionCode": "InspectObject()",
+        "functionMode": 0,
+        "key": "F12",
+        "keyChange": true,
+        "label": "Open GUI",
+        "mode": "ahk",
+        "multiple": true,
+        "name": "InspectObject_Hotkey0",
+        "scope": [],
+        "scopeChange": true,
+        "scopeMode": 0,
+        "typ": "hotkey"
+      }
+    ],
+    "disablable": false,
+    "enabled": true,
+    "label": "",
+    "name": "InspectObject_GroupBox1",
+    "typ": "group"
+  }
+]
