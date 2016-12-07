@@ -17,7 +17,7 @@
         "label": "List of Object to inspect (separated by comma)",
         "name": "InspectObject_ListOfObjects",
         "typ": "string",
-        "value": "Settings"
+        "value": "a2, Settings"
       },
       {
         "disablable": true,
