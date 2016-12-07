@@ -1,0 +1,34 @@
+[
+  {
+    "author": "Lipkau",
+    "date": "2016 12 6",
+    "description": "Open a tool to view the Debug Stream.",
+    "typ": "nfo",
+    "url": "",
+    "version": "0.1"
+  },
+  {
+    "file": "DebugView.ahk",
+    "typ": "include"
+  },
+  {
+    "code": "DebugView_Init()",
+    "typ": "init"
+  },
+  {
+    "disablable": true,
+    "enabled": true,
+    "functionCode": "DebugView_Write(\"Howdy, mate\")",
+    "functionMode": 0,
+    "key": "Win+Shift+F12",
+    "keyChange": true,
+    "label": "Write to stream",
+    "mode": "ahk",
+    "multiple": true,
+    "name": "DebugView_Hotkey2",
+    "scope": [],
+    "scopeChange": true,
+    "scopeMode": 0,
+    "typ": "hotkey"
+  }
+]
