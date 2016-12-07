@@ -884,9 +884,9 @@ InspectObject()
     global InspectObject_ListOfObjects
 
     objects := Array()
-    Loop, Parse, InspectObject_ListOfObjects, `, %A_Space%
+    Loop, Parse, InspectObject_ListOfObjects, `, %A_Space%%A_Tab%
     {
         objects.Push({(A_LoopField): %A_LoopField%})
     }
-    WinWaitClose % "ahk_id " ObjTree(objects)
+    WinWaitClose % "ahk_id " ObjTree(objects, "InspectObject")
 }
