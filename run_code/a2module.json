@@ -1,0 +1,30 @@
+﻿[
+  {
+    "author": "Lipkau <oliver@lipkau.net>",
+    "date": "2018 8 17",
+    "description": "Because none existed before this temporary description was created for \"run_code\". Change it to describe what it does with a couple of words.",
+    "tags": [],
+    "typ": "nfo",
+    "url": "",
+    "version": "0.1"
+  },
+  {
+    "file": "awesomeScript.ahk",
+    "typ": "include"
+  },
+  {
+    "disablable": true,
+    "enabled": true,
+    "functionCode": "foo()",
+    "functionMode": 0,
+    "key": [
+      "Lwin+F11"
+    ],
+    "keyChange": true,
+    "label": "make some awesome stuff",
+    "multiple": true,
+    "name": "run_code_Hotkey",
+    "scopeChange": true,
+    "typ": "hotkey"
+  }
+]
