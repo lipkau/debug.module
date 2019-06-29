@@ -2,8 +2,6 @@
 ; author: Lipkau
 ; created: 2016 12 6
 
-#include lib\ahklib\CNotification.ahk
-
 DebugView_Init()
 {
     DllCall("AllocConsole")
@@ -17,5 +15,5 @@ DebugView_Init()
 
 DebugView_Write(var)
 {
-    WriteDebug(var, "Hello`nWorld", "debug", "DebugView")
+    a2log_debug(var, "Hello`nWorld", "debug", "DebugView")
 }
